@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<!-- <view class="container" style='background-image:url(../../images/system/background.png)'> -->
+<view class="container" style='background:#4D76B3;'>
+  <view class="content">
+    <!-- 限时 -->
+    <view class="tuanGouTime">
+      <image class="resizeTime" src='../../images/system/resizeApi.png'></image>
+      <text>距离团购活动结束还有</text>
+      <text class="timeNumber">10</text>
+      <text class="xianShiTime">时</text>
+       <text class="timeNumber">10</text>
+      <text class="xianShiTime">分</text>
+       <text class="timeNumber">10</text>
+      <text class="xianShiTime">秒</text>
+    </view>
+    <!-- 团长信息 -->
+    <view class="shops">
+        <image src="../../images/system/header.png" class="personImg"></image>
+        <view>
+          <text></text>
+        </view>
+    </view>
+    <!-- 商品信息 -->
+    <view class="goodList">
+        <view class="goodDetail">
+        </view>
+    </view>
+  </view>
+   <!-- 快捷导航 -->
+  <view class="navigationBtn">快捷导航</view>
+  <!-- 分享 -->
+  <view class="shareView">
+    <image class="shareBtn" src="../../images/system/share.png"></image>
+    <text class="shareFont">分享</text>
+  </view>
+  <!-- 结算 -->
+  <view class="moneyTar">
+    <view class="moneyImg">
+      <image class="recycleImg" src="../../images/system/recycle.png"></image>
+     
+    </view>
+    <text class="totalMoney"><text>￥</text>23.43</text>
+    <view class="accountBtn">    
+      <button class="accountMoney" style="width:200rpx;">去结算</button>
+    </view>
+  </view>
+</view>
